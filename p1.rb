@@ -13,7 +13,7 @@
 
 #{ Code Using Class, Object, Operators, Conditions}
 
-module Cal
+module Ca
    def Cal.add(x, y)
       z = x+y
       puts "Addition of #{x} + #{y} = #{z}";      
