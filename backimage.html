@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      th,
+      td {
+        border: 1px solid black;
+        ""border-collapse: collapse;
+      }
+
+      tr:nth-child(even) {
+        background-color: rgba(150, 212, 212, 0.4);
+      }
+
+      th:nth-child(even),
+      td:nth-child(even) {
+        background-color: rgba(150, 212, 212, 0.4);
+      }
+    </style>
+  </head>
+  <body>
+    <table style="width: 100%">
+      <colgroup>
+        <col span="2" style="background-color: green" />
+        <col span="1" style="background-color: brown" />
+      </colgroup>
+
+      <tr>
+        <th>Company</th>
+        <th>Count</th>
+        <th>Country</th>
+      </tr>
+      <tr style="height: 200">
+        <td>Alfreds Futterkiste</td>
+        <td>Maria Anders</td>
+        <td>Germany</td>
+      </tr>
+      <tr>
+        <td>Centro comercial Moctezuma</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+      </tr>
+    </table>
+  </body>
+</html>
